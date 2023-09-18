@@ -74,7 +74,7 @@ def AddEmp():
         cursor.close()
 
     print("all modification done...")
-    return render_template('company-login.html')
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
